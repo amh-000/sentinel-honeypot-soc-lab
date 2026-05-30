@@ -285,12 +285,16 @@ This expands the lab from host-based monitoring into identity monitoring. If sig
 
 ![Compromise check showing no external successful logons](screenshots/07-compromise-check.PNG)
 
+### Entra ID Add-On
+
+![Entra ID diagnostic settings forwarding identity logs to Sentinel](screenshots/08-entra-diagnostic-settings.PNG)
+
 > Controlled tester IP addresses are blurred in public screenshots.
 
 ## Repository Structure
 
 ```text
-sentinel-soc-lab/
+sentinel-honeypot-soc-lab/
   README.md
   queries.md
   incident-writeup.md
