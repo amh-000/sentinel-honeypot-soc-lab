@@ -251,21 +251,41 @@ This expands the lab from host-based monitoring into identity monitoring. If sig
 
 ## Screenshots
 
-| Screenshot | Description |
-| --- | --- |
-| `screenshots/01a-dashboard.png` | Dashboard timeline and top attacker countries |
-| `screenshots/01b-dashboard.png` | Global attack map and total failed login attempts |
-| `screenshots/01c-dashboard.png` | Targeted usernames and top attacker IPs |
-| `screenshots/02-detection-rules.png` | Three enabled analytics rules with MITRE mappings |
-| `screenshots/03a-incidents-queue.png` | Incident queue showing active detection volume |
-| `screenshots/03b-incidents-queue.png` | Incident queue showing both brute force and username spraying detections |
-| `screenshots/04-soar-runs.png` | SOAR playbook run history with successful executions |
-| `screenshots/05a-mitre-brute-force.png` | MITRE ATT&CK coverage for Brute Force |
-| `screenshots/05b-mitre-valid-accounts.png` | MITRE ATT&CK coverage for Valid Accounts |
-| `screenshots/06-controlled-validation.png` | Controlled failed-then-successful RDP validation |
-| `screenshots/07-compromise-check.png` | Compromise check showing no external successful logons |
+### Dashboard
 
-> Note: controlled tester IP addresses are blurred in public screenshots.
+![Dashboard timeline and top attacker countries](screenshots/01a-dashboard.PNG)
+
+![Global attack map and total failed login attempts](screenshots/01b-dashboard.PNG)
+
+![Targeted usernames and top attacker IPs](screenshots/01c-dashboard.PNG)
+
+### Detection Rules
+
+![Three enabled analytics rules with MITRE mappings](screenshots/02-detection-rules.PNG)
+
+### Incidents
+
+![Incident queue showing active detection volume](screenshots/03a-incidents-queue.PNG)
+
+![Incident queue showing brute force and username spraying detections](screenshots/03b-incidents-queue.PNG)
+
+### SOAR Automation
+
+![SOAR playbook run history with successful executions](screenshots/04-soar-runs.PNG)
+
+### MITRE ATT&CK Coverage
+
+![MITRE ATT&CK coverage for Brute Force](screenshots/05a-mitre-brute-force.PNG)
+
+![MITRE ATT&CK coverage for Valid Accounts](screenshots/05b-mitre-valid-accounts.PNG)
+
+### Validation
+
+![Controlled failed-then-successful RDP validation](screenshots/06-controlled-validation.PNG)
+
+![Compromise check showing no external successful logons](screenshots/07-compromise-check.PNG)
+
+> Controlled tester IP addresses are blurred in public screenshots.
 
 ## Repository Structure
 
