@@ -306,14 +306,14 @@ sentinel-honeypot-soc-lab/
 
 - **Cloud quota and region limits matter.** The Azure free trial had quota limitations, so VM deployment required working through subscription and regional availability constraints.
 - **Native geolocation is cleaner.** Using `geo_info_from_ip_address()` avoided maintaining an external GeoIP spreadsheet or API script.
-- **Detection grouping matters.** The successful-login-after-brute-force rule originally grouped by account, but Windows logged account names in multiple formats. Grouping by IP and host while preserving accounts in `AccountsSeen` made the rule more reliable.
+- **Detection grouping matters.** The successful login after brute force rule originally grouped by account, but Windows logged account names in multiple formats. Grouping by IP and host while preserving accounts in `AccountsSeen` made the rule more reliable.
 - **SOAR depends on RBAC.** The automation pipeline required correct Sentinel and Logic App permissions. Troubleshooting RBAC and managed identity access was a realistic part of the build.
 - **Dashboards need consistent time ranges.** Setting all tiles to the same time range made totals, country counts, and timelines align cleanly.
-- **Not every detection should be noisy.** The brute force and username spraying rules generated frequent incidents, while the success-after-failures rule was designed to stay quiet unless a possible compromise occurred.
+- **Not every detection should be noisy.** The brute force and username spraying rules generated frequent incidents, while the success after failures rule was designed to stay quiet unless a possible compromise occurred.
 
 ## Future Work
 
 - Add saved Microsoft Sentinel hunting queries for repeated attacker IPs, targeted usernames, and successful remote logons.
-- Expand Entra ID identity detections if sign-in logs populate consistently.
-- Add longer-term trend analysis after multiple weeks of collection.
-- Continue studying for Microsoft SC-200 Security Operations Analyst.
+- Expand Entra ID identity detections if sign in logs populate consistently.
+- Add longer term trend analysis after multiple weeks of collection.
+- Continue studying for Microsoft SC 200 Security Operations Analyst.
